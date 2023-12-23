@@ -41,7 +41,12 @@ return {
         light = "latte",
         dark = "mocha",
       },
-      transparent_background = true,
+      transparent_background = false,
+      color_overrides = {
+        mocha = {
+          base = "#2C0703",
+        },
+      },
     },
   },
 }
